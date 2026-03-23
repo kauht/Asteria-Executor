@@ -11,7 +11,7 @@ public:
     bool Init();
     void Shutdown();
     bool ExecuteString(const std::string& code);
-    
+
     LogClient& GetLogClient() { return logClient; }
     lua_State* GetState() const { return L; }
 
