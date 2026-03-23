@@ -1,0 +1,29 @@
+#pragma once
+enum EEconItemRarity {
+    IR_DEFAULT,
+    IR_COMMON,
+    IR_UNCOMMON,
+    IR_RARE,
+    IR_MYTHICAL,
+    IR_LEGENDARY,
+    IR_ANCIENT,
+    IR_IMMORTAL
+};
+
+enum EEconItemQuality {
+    IQ_UNDEFINED = -1,
+    IQ_NORMAL,
+    IQ_GENUINE,
+    IQ_VINTAGE,
+    IQ_UNUSUAL,
+    IQ_UNIQUE,
+    IQ_COMMUNITY,
+    IQ_DEVELOPER,
+    IQ_SELFMADE,
+    IQ_CUSTOMIZED,
+    IQ_STRANGE,
+    IQ_COMPLETED,
+    IQ_HAUNTED,
+    IQ_TOURNAMENT,
+    IQ_FAVORED
+};
